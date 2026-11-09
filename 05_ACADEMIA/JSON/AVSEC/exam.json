@@ -1,0 +1,16 @@
+{
+  "schema_version": "1",
+  "exam_id": "<EXAM_ID>",
+  "course_id": "CRS-AVSEC-001",
+  "unit_id": "UNT-AVSEC-001",
+  "exam_version": "0.1.0-draft",
+  "question_bank_ref": "<QUESTION_BANK_ID>@<BANK_VERSION>",
+  "selection_policy": {
+    "question_count": 35,
+    "categories": [],
+    "weights": []
+  },
+  "passing_score": 0,
+  "randomization_policy": "<RANDOMIZATION_POLICY>",
+  "status": "TEMPLATE"
+}

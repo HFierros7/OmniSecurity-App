@@ -1,0 +1,382 @@
+{
+  "schema_version": "1",
+  "course_id": "CRS-AVSEC-001",
+  "content_version": "0.1.0",
+  "locale": "es-MX",
+  "status": "DRAFT_REVIEW",
+  "title": "CERTIFICACIÓN AVSEC — OFICIAL DE SEGURIDAD AEROPORTUARIA",
+  "summary": "Curso introductorio de seguridad de la aviación civil con cinco unidades. Las 20 horas son una estimación didáctica; este material demo requiere revisión y aprobación por responsables AVSEC antes de cualquier uso formativo oficial.",
+  "estimated_minutes": 1200,
+  "unit_refs": [
+    "UNT-AVSEC-001",
+    "UNT-AVSEC-002",
+    "UNT-AVSEC-003",
+    "UNT-AVSEC-004",
+    "UNT-AVSEC-005"
+  ],
+  "units": [
+    {
+      "unit_id": "UNT-AVSEC-001",
+      "sequence": 1,
+      "title": "Fundamentos de la Seguridad de la Aviación Civil",
+      "estimated_minutes": 240,
+      "objectives": [
+        "Explicar el propósito preventivo de la seguridad de la aviación civil y distinguirlo de la seguridad operacional.",
+        "Describir la responsabilidad compartida entre autoridades, operadores, instalaciones y personal autorizado.",
+        "Aplicar criterios de observación, comunicación y escalamiento conforme a la capacitación y al procedimiento aprobado."
+      ],
+      "introduction": "La seguridad de la aviación civil (AVSEC) reúne políticas, responsabilidades y medidas coordinadas para proteger la aviación frente a actos de interferencia ilícita. Su eficacia depende de la regulación aplicable, los programas aprobados, la capacitación vigente y la actuación responsable de cada persona. Esta unidad presenta principios generales; no sustituye el programa de seguridad del aeropuerto ni los procedimientos del empleador.",
+      "lesson_refs": ["LES-AVSEC-001"],
+      "activity_ref": "ACT-AVSEC-001",
+      "quiz_refs": ["QST-AVSEC-0001", "QST-AVSEC-0002", "QST-AVSEC-0003", "QST-AVSEC-0004", "QST-AVSEC-0005"],
+      "reference_refs": ["REF-AVSEC-001", "REF-AVSEC-002"],
+      "lesson": {
+        "lesson_id": "LES-AVSEC-001",
+        "sequence": 1,
+        "title": "Propósito, responsabilidades y cultura AVSEC",
+        "estimated_minutes": 180,
+        "concepts": [
+          "AVSEC: protección de la aviación civil frente a actos de interferencia ilícita, dentro del marco de las normas y programas aprobados.",
+          "Seguridad operacional: prevención de accidentes y reducción de riesgos asociados a la operación. Se coordina con AVSEC, pero tiene objetivos y procesos distintos.",
+          "Defensa en profundidad: medidas coordinadas en capas; una medida aislada no reemplaza la supervisión, la capacitación ni la respuesta organizada.",
+          "Responsabilidad compartida: autoridades, operadores, prestadores y personal cumplen funciones definidas; cada persona actúa dentro de su autorización y competencia.",
+          "Cultura de seguridad: conducta profesional que favorece atención, comunicación temprana, cumplimiento y aprendizaje sin normalizar desviaciones."
+        ],
+        "examples": [
+          "Una persona advierte que una credencial no corresponde con la actividad observada. Evita hacer suposiciones, conserva una distancia segura y comunica la discrepancia por el canal interno establecido.",
+          "En un relevo, el equipo comparte información pertinente y confirma qué asuntos requieren seguimiento, sin divulgar datos sensibles a personas no autorizadas."
+        ],
+        "case": {
+          "title": "Discrepancia durante un relevo",
+          "description": "Al iniciar el turno, una indicación verbal contradice el registro autorizado del servicio. El equipo detiene la acción que dependa de esa instrucción, verifica por el canal designado y documenta el resultado conforme al procedimiento local. No improvisa una excepción."
+        },
+        "common_errors": [
+          "Confundir AVSEC con seguridad operacional o tratar sus controles como intercambiables.",
+          "Suponer que una acreditación, uniforme o relación conocida demuestra por sí sola autorización vigente.",
+          "Resolver una duda fuera de la propia competencia o compartir detalles sensibles por canales no autorizados."
+        ],
+        "human_factors": [
+          "Fatiga y rutina pueden reducir la atención; las pausas, los relevos claros y la supervisión ayudan a recuperar una observación fiable.",
+          "La presión de tiempo o jerarquía puede inhibir preguntas; una cultura justa facilita reportar una discrepancia sin represalias por comunicarla de buena fe.",
+          "La atención situacional requiere observar el contexto y registrar hechos verificables, separándolos de interpretaciones."
+        ],
+        "summary": "AVSEC es un sistema preventivo coordinado. El personal debe conocer su función, proteger la información, seguir la capacitación vigente y escalar las dudas por canales aprobados. La regla operativa específica siempre proviene del programa de seguridad aplicable.",
+        "content_blocks": [
+          {"type": "text", "text": "El objetivo AVSEC es reducir la posibilidad y las consecuencias de actos de interferencia ilícita mediante medidas coordinadas, supervisión y cooperación. Las normas internacionales establecen un marco; cada Estado y operador lo desarrolla en programas y procedimientos aplicables."},
+          {"type": "accordion", "title": "AVSEC y seguridad operacional", "blocks": [
+            {"type": "text", "text": "AVSEC aborda amenazas intencionales contra la aviación civil. La seguridad operacional gestiona peligros y riesgos de la operación. Ambas disciplinas se comunican cuando un evento tiene implicaciones compartidas, pero se aplican según su autoridad y procedimientos propios."}
+          ]},
+          {"type": "diagram", "title": "Responsabilidad coordinada", "alt": "Autoridad, operador, organización y personal autorizado coordinan sus responsabilidades", "text": "Marco estatal y normas aplicables\n        ↓\nPrograma de seguridad aprobado\n        ↓\nOrganización y supervisión\n        ↓\nPersonal capacitado y comunicación\n        ↓\nRevisión y mejora continua"},
+          {"type": "case", "title": "Discrepancia durante un relevo", "description": "Una instrucción verbal contradice el registro autorizado. El personal verifica por el canal designado, evita improvisar una excepción y deja constancia conforme al procedimiento local."}
+        ]
+      },
+      "activity": {
+        "activity_id": "ACT-AVSEC-001",
+        "type": "scenario",
+        "title": "Decisión ante una discrepancia",
+        "instructions": "Durante el relevo detectas una diferencia entre una instrucción verbal y la información autorizada. Elige la actuación que mantiene la trazabilidad y respeta tu ámbito de responsabilidad.",
+        "options": [
+          {"id": "A", "text": "Aplicar la instrucción verbal para evitar demoras."},
+          {"id": "B", "text": "Verificarla por el canal designado y escalar la discrepancia antes de actuar."},
+          {"id": "C", "text": "Compartir el detalle en un grupo abierto para obtener opiniones."},
+          {"id": "D", "text": "Ignorar ambas fuentes y decidir por cuenta propia."}
+        ],
+        "correct_option_id": "B",
+        "feedback": "La verificación por un canal autorizado conserva la trazabilidad, evita decisiones fuera de competencia y permite resolver la discrepancia con la persona responsable.",
+        "completion_rule": "Seleccionar una alternativa y guardar la actividad."
+      }
+    },
+    {
+      "unit_id": "UNT-AVSEC-002",
+      "sequence": 2,
+      "title": "Control de Accesos y Zonas de Seguridad Restringidas",
+      "estimated_minutes": 240,
+      "objectives": [
+        "Explicar por qué el acceso se limita a personas con autorización y necesidad funcional vigentes.",
+        "Describir cómo actuar ante una credencial, autorización o condición de acceso que requiere verificación.",
+        "Identificar la importancia de registrar y comunicar pérdidas, daños o anomalías por canales establecidos."
+      ],
+      "introduction": "El control de accesos protege áreas y actividades mediante autorización, identificación, registro y supervisión. Las zonas, categorías de acceso, credenciales y métodos de verificación dependen del programa aprobado y del sitio. El material evita describir configuraciones, puntos vulnerables o formas de eludir controles.",
+      "lesson_refs": ["LES-AVSEC-002"],
+      "activity_ref": "ACT-AVSEC-002",
+      "quiz_refs": ["QST-AVSEC-0011", "QST-AVSEC-0012", "QST-AVSEC-0013", "QST-AVSEC-0014", "QST-AVSEC-0015"],
+      "reference_refs": ["REF-AVSEC-001", "REF-AVSEC-002"],
+      "lesson": {
+        "lesson_id": "LES-AVSEC-002",
+        "sequence": 1,
+        "title": "Autorización, identificación y supervisión de accesos",
+        "estimated_minutes": 180,
+        "concepts": [
+          "Acceso autorizado: permiso vigente asociado a una identidad y a una función reconocidas por el sistema responsable.",
+          "Necesidad funcional: acceso limitado al área y periodo necesarios para la tarea autorizada.",
+          "Credencial: medio de identificación y verificación; su presencia no elimina la obligación de aplicar el procedimiento vigente.",
+          "Acompañamiento: modalidad definida por el programa local para personas que no cuentan con autorización independiente.",
+          "Trazabilidad: registro de eventos y novedades conforme a la política del sitio, con acceso limitado a quienes lo necesitan."
+        ],
+        "examples": [
+          "Una credencial dañada o ilegible se deriva al punto de verificación establecido; el guardia no sustituye el mecanismo autorizado con una aprobación informal.",
+          "Al detectar una credencial extraviada, el titular reporta el hecho inmediatamente por el canal definido para que el responsable determine las acciones aplicables."
+        ],
+        "case": {
+          "title": "Solicitud de acceso no prevista",
+          "description": "Una persona solicita ingresar a un área restringida y su autorización no puede confirmarse en ese momento. El personal mantiene el límite de acceso, contacta al responsable designado y registra la incidencia según el procedimiento, sin revelar detalles internos."
+        },
+        "common_errors": [
+          "Permitir el paso por familiaridad, presión o apariencia sin la verificación exigida.",
+          "Prestar una credencial o asumir que otra persona puede usarla.",
+          "Compartir mapas, horarios, códigos, listas o detalles de los controles con personal que no está autorizado."
+        ],
+        "human_factors": [
+          "La familiaridad con colegas y contratistas puede crear sesgo de confianza; aplicar el mismo estándar de manera respetuosa.",
+          "Las filas y la presión social pueden inducir a omitir pasos; solicitar apoyo de supervisión en lugar de improvisar.",
+          "La comunicación clara reduce la confrontación: explicar que la verificación es un requisito del sitio, no una valoración personal."
+        ],
+        "summary": "El acceso requiere autorización vigente y aplicación consistente del programa local. Ante dudas, pérdidas o discrepancias, preservar el límite establecido y escalar; nunca compartir credenciales ni divulgar información de control.",
+        "content_blocks": [
+          {"type": "text", "text": "La autorización de acceso se limita a la identidad, función, lugar y vigencia aprobados. El personal aplica los medios de identificación y acompañamiento establecidos por el operador y evita sustituirlos por decisiones informales."},
+          {"type": "accordion", "title": "Qué hacer ante una discrepancia", "blocks": [
+            {"type": "text", "text": "Mantener la condición de acceso vigente, comunicar la situación al responsable designado, seguir sus instrucciones autorizadas y registrar los hechos requeridos. No confrontar de forma innecesaria ni revelar información sensible."}
+          ]},
+          {"type": "diagram", "title": "Ciclo de verificación general", "alt": "Solicitud, verificación, decisión autorizada y registro", "text": "Solicitud de acceso\n        ↓\nVerificación autorizada\n        ↓\nDecisión según programa local\n        ↓\nRegistro y escalamiento si procede"},
+          {"type": "case", "title": "Solicitud de acceso no prevista", "description": "La autorización no se confirma. El personal mantiene el límite establecido y contacta al responsable por el canal autorizado, sin crear una excepción propia."}
+        ]
+      },
+      "activity": {
+        "activity_id": "ACT-AVSEC-002",
+        "type": "decision",
+        "title": "Verificar antes de autorizar",
+        "instructions": "Una persona conocida solicita acceso, pero la autorización vigente no está disponible para verificación. Selecciona la respuesta profesional.",
+        "options": [
+          {"id": "A", "text": "Permitir el acceso porque la persona es conocida."},
+          {"id": "B", "text": "Mantener el control y consultar al responsable por el canal aprobado."},
+          {"id": "C", "text": "Pedir a otra persona que preste su credencial."},
+          {"id": "D", "text": "Describir públicamente los detalles del control para que la persona compruebe su autorización."}
+        ],
+        "correct_option_id": "B",
+        "feedback": "La familiaridad no sustituye la autorización. La consulta con el responsable preserva el procedimiento y evita compartir detalles del control.",
+        "completion_rule": "Seleccionar una alternativa y guardar la actividad."
+      }
+    },
+    {
+      "unit_id": "UNT-AVSEC-003",
+      "sequence": 3,
+      "title": "Inspección de Pasajeros y Equipaje",
+      "estimated_minutes": 240,
+      "objectives": [
+        "Explicar el propósito de los procesos autorizados de inspección y el deber de respetar la dignidad de las personas.",
+        "Reconocer que equipos, criterios y respuestas a alertas dependen de capacitación y procedimientos vigentes.",
+        "Describir una comunicación segura y un escalamiento apropiado ante una anomalía o necesidad de asistencia."
+      ],
+      "introduction": "La inspección de pasajeros y equipaje forma parte de un sistema de medidas aprobado por la autoridad competente y aplicado por personal habilitado. Esta unidad se limita a principios de profesionalismo, consistencia, privacidad, atención al pasajero y escalamiento. No expone técnicas de detección, parámetros, configuraciones de equipos ni métodos para evitar controles.",
+      "lesson_refs": ["LES-AVSEC-003"],
+      "activity_ref": "ACT-AVSEC-003",
+      "quiz_refs": ["QST-AVSEC-0021", "QST-AVSEC-0022", "QST-AVSEC-0023", "QST-AVSEC-0024", "QST-AVSEC-0025"],
+      "reference_refs": ["REF-AVSEC-001", "REF-AVSEC-002"],
+      "lesson": {
+        "lesson_id": "LES-AVSEC-003",
+        "sequence": 1,
+        "title": "Inspección profesional y trato al pasajero",
+        "estimated_minutes": 180,
+        "concepts": [
+          "Inspección: proceso autorizado de aplicación sistemática de medidas definidas por el programa competente.",
+          "Consistencia: aplicar los procedimientos y criterios establecidos, sin discriminación ni atajos basados en intuición.",
+          "Resolución de alertas: seguir la secuencia aprobada y recurrir a supervisión cuando una condición exceda la propia habilitación.",
+          "Trato digno: comunicar con respeto, proteger la privacidad y facilitar los ajustes previstos por el procedimiento.",
+          "Segregación de funciones: personal habilitado usa equipos y toma decisiones dentro de sus autorizaciones."
+        ],
+        "examples": [
+          "Cuando el proceso requiere una verificación adicional, el personal explica el siguiente paso en lenguaje claro y solicita apoyo autorizado si la situación supera su capacitación.",
+          "Ante una barrera de comunicación o una necesidad de accesibilidad, se solicita asistencia por el mecanismo aprobado sin omitir el control ni exponer información personal."
+        ],
+        "case": {
+          "title": "Alerta que requiere apoyo",
+          "description": "Una etapa de inspección genera una condición que el agente no puede resolver por sí solo. Mantiene el proceso conforme a su entrenamiento, protege la privacidad y llama al supervisor o especialista designado; no interpreta ni anula la alerta por presión de tiempo."
+        },
+        "common_errors": [
+          "Tratar una alerta como prueba concluyente sin seguir la verificación establecida.",
+          "Modificar un criterio o equipo por iniciativa propia.",
+          "Compartir detalles de técnicas, imágenes de controles o información del pasajero en espacios no autorizados."
+        ],
+        "human_factors": [
+          "Repetición, carga de trabajo y fatiga pueden afectar la consistencia; respetar pausas y protocolos de relevo.",
+          "Sesgos de apariencia o nacionalidad son incompatibles con criterios autorizados y trato equitativo.",
+          "La comunicación calmada y la coordinación con supervisión reducen errores y tensiones."
+        ],
+        "summary": "La inspección debe ser consistente, digna y realizada por personal habilitado. Los criterios técnicos y la respuesta a alertas se obtienen exclusivamente de formación aprobada y procedimientos vigentes.",
+        "content_blocks": [
+          {"type": "text", "text": "Las medidas de inspección se aplican de forma autorizada, consistente y respetuosa. La capacitación y los procedimientos controlados determinan equipos, criterios y resolución de alertas; esta unidad no reemplaza esos materiales."},
+          {"type": "accordion", "title": "Principios de interacción", "blocks": [
+            {"type": "text", "text": "Explicar lo necesario con claridad, proteger la privacidad, ofrecer las adaptaciones previstas y pedir apoyo cuando una decisión exceda la habilitación. Mantener el mismo estándar autorizado para todas las personas."}
+          ]},
+          {"type": "diagram", "title": "Escalamiento ante una condición no resuelta", "alt": "Mantener el proceso, solicitar apoyo autorizado y registrar lo requerido", "text": "Condición detectada por personal habilitado\n        ↓\nAplicar la instrucción aprobada dentro de la propia competencia\n        ↓\nSolicitar apoyo si permanece sin resolver\n        ↓\nRegistrar y continuar según decisión autorizada"},
+          {"type": "case", "title": "Alerta que requiere apoyo", "description": "El agente mantiene el proceso, protege la privacidad y solicita al supervisor o especialista designado que aplique el procedimiento vigente."}
+        ]
+      },
+      "activity": {
+        "activity_id": "ACT-AVSEC-003",
+        "type": "scenario",
+        "title": "Atención profesional ante una alerta",
+        "instructions": "Una alerta requiere una resolución fuera de tu habilitación inmediata. Elige el siguiente paso que mantiene la seguridad y el trato digno.",
+        "options": [
+          {"id": "A", "text": "Ignorarla para reducir la demora."},
+          {"id": "B", "text": "Aplicar la secuencia aprobada y pedir apoyo autorizado si excede tu competencia."},
+          {"id": "C", "text": "Cambiar la configuración del equipo sin autorización."},
+          {"id": "D", "text": "Comentar detalles del caso en un canal abierto."}
+        ],
+        "correct_option_id": "B",
+        "feedback": "La capacitación y el procedimiento vigente guían la respuesta. El escalamiento evita que alguien sin habilitación modifique controles o resuelva una condición de manera improvisada.",
+        "completion_rule": "Seleccionar una alternativa y guardar la actividad."
+      }
+    },
+    {
+      "unit_id": "UNT-AVSEC-004",
+      "sequence": 4,
+      "title": "Inspección de Carga, Correo y Suministros",
+      "estimated_minutes": 240,
+      "objectives": [
+        "Describir la importancia de la trazabilidad y de la aceptación conforme a responsabilidades autorizadas.",
+        "Identificar discrepancias documentales o de custodia que deben elevarse según el procedimiento.",
+        "Explicar por qué la protección de la cadena de suministro requiere coordinación entre participantes autorizados."
+      ],
+      "introduction": "La seguridad de carga, correo y suministros depende de procesos documentados, responsabilidades definidas y controles aprobados para cada cadena de suministro. La unidad desarrolla conceptos de trazabilidad y escalamiento sin detallar métodos, umbrales, vulnerabilidades ni formas de eludir inspecciones.",
+      "lesson_refs": ["LES-AVSEC-004"],
+      "activity_ref": "ACT-AVSEC-004",
+      "quiz_refs": ["QST-AVSEC-0031", "QST-AVSEC-0032", "QST-AVSEC-0033", "QST-AVSEC-0034", "QST-AVSEC-0035"],
+      "reference_refs": ["REF-AVSEC-001", "REF-AVSEC-002"],
+      "lesson": {
+        "lesson_id": "LES-AVSEC-004",
+        "sequence": 1,
+        "title": "Trazabilidad y coordinación en la cadena de suministro",
+        "estimated_minutes": 180,
+        "concepts": [
+          "Cadena de suministro segura: conjunto de participantes, responsabilidades y registros que mantienen la integridad del proceso.",
+          "Estatus de participante: condición reconocida por la autoridad o programa aplicable, comprobada con medios autorizados.",
+          "Trazabilidad: capacidad de vincular una recepción, custodia, transferencia y aceptación a registros verificables.",
+          "Discrepancia: diferencia entre la información declarada, el estado observado y los registros que requiere resolución por el responsable.",
+          "Protección de información: detalles de controles y operaciones se distribuyen únicamente a quienes los necesitan para su función."
+        ],
+        "examples": [
+          "Una entrega llega con información incompleta. El personal evita aceptarla fuera de proceso, preserva la documentación disponible y consulta al responsable autorizado.",
+          "Un cambio en la custodia se registra en el sistema establecido para que el siguiente participante pueda verificar la continuidad."
+        ],
+        "case": {
+          "title": "Registro y envío no coinciden",
+          "description": "La documentación de una entrega no coincide con el registro del siguiente paso. Se conserva la carga bajo las condiciones establecidas, se avisa al responsable y se documenta la discrepancia; ninguna persona reescribe o completa datos por conjetura."
+        },
+        "common_errors": [
+          "Aceptar una discrepancia documental sin confirmación del responsable.",
+          "Tratar un estado anterior de una entidad como autorización actual sin verificarlo.",
+          "Completar registros retrospectivamente con información inferida o compartir detalles de controles."
+        ],
+        "human_factors": [
+          "La presión logística puede favorecer atajos; el procedimiento de escalamiento protege la continuidad sin hacer excepciones informales.",
+          "Los traspasos entre organizaciones crean riesgo de pérdida de contexto; usar registros claros y acuses definidos.",
+          "La automatización apoya la revisión, pero no sustituye la responsabilidad de verificar datos y comunicar anomalías."
+        ],
+        "summary": "La trazabilidad, la vigencia de autorizaciones y la coordinación documentada sostienen la seguridad de la cadena de suministro. Las discrepancias se resuelven por responsables autorizados y conforme al programa vigente.",
+        "content_blocks": [
+          {"type": "text", "text": "Carga, correo y suministros circulan por cadenas con múltiples responsables. La aceptación y transferencia se realizan según el programa aplicable, con registros verificables y controles de acceso a la información."},
+          {"type": "accordion", "title": "Trazabilidad documental", "blocks": [
+            {"type": "text", "text": "Los registros deben permitir identificar responsabilidades y cambios de custodia. Una discrepancia se conserva como tal hasta que el responsable autorizado la resuelva; no se corrige con datos supuestos."}
+          ]},
+          {"type": "diagram", "title": "Continuidad de custodia a alto nivel", "alt": "Participante autorizado, registro, transferencia documentada y aceptación autorizada", "text": "Participante reconocido por el programa\n        ↓\nRegistro y control de custodia\n        ↓\nTransferencia documentada\n        ↓\nAceptación por el responsable siguiente"},
+          {"type": "case", "title": "Registro y envío no coinciden", "description": "Se conserva la situación bajo las condiciones autorizadas y se consulta al responsable; no se modifica ni se completa documentación con información inferida."}
+        ]
+      },
+      "activity": {
+        "activity_id": "ACT-AVSEC-004",
+        "type": "case",
+        "title": "Resolver una discrepancia documental",
+        "instructions": "La información de una entrega no coincide con el registro recibido. Selecciona la acción que conserva la trazabilidad.",
+        "options": [
+          {"id": "A", "text": "Corregir el documento con el dato que parece más probable."},
+          {"id": "B", "text": "Seguir las condiciones establecidas, preservar el registro y consultar al responsable autorizado."},
+          {"id": "C", "text": "Aceptar la entrega y avisar al final del turno."},
+          {"id": "D", "text": "Enviar una fotografía del documento a un chat no autorizado."}
+        ],
+        "correct_option_id": "B",
+        "feedback": "La discrepancia debe resolverse mediante el responsable y los mecanismos autorizados. Preservar el registro evita cambios no trazables y mantiene la cadena de custodia.",
+        "completion_rule": "Seleccionar una alternativa y guardar la actividad."
+      }
+    },
+    {
+      "unit_id": "UNT-AVSEC-005",
+      "sequence": 5,
+      "title": "Gestión de Incidentes y Actos de Interferencia Ilícita",
+      "estimated_minutes": 240,
+      "objectives": [
+        "Reconocer el valor de reportar oportunamente hechos observables y seguir el plan de respuesta aprobado.",
+        "Priorizar la protección de las personas y la coordinación con autoridades y responsables designados.",
+        "Describir cómo preservar registros y confidencialidad durante el reporte y seguimiento."
+      ],
+      "introduction": "Un incidente de seguridad exige comunicación clara, respuesta coordinada y cumplimiento del plan aplicable. La prioridad es proteger a las personas y solicitar apoyo por canales establecidos. Los escenarios reales, comunicaciones, evacuaciones, búsquedas, amenazas y coordinación con autoridades se rigen por procedimientos controlados que no se reproducen en esta demo.",
+      "lesson_refs": ["LES-AVSEC-005"],
+      "activity_ref": "ACT-AVSEC-005",
+      "quiz_refs": ["QST-AVSEC-0041", "QST-AVSEC-0042", "QST-AVSEC-0043", "QST-AVSEC-0044", "QST-AVSEC-0045"],
+      "reference_refs": ["REF-AVSEC-001", "REF-AVSEC-002", "REF-AVSEC-003"],
+      "lesson": {
+        "lesson_id": "LES-AVSEC-005",
+        "sequence": 1,
+        "title": "Reporte, coordinación y aprendizaje de incidentes",
+        "estimated_minutes": 180,
+        "concepts": [
+          "Incidente AVSEC: evento real o sospechado que se gestiona según las definiciones y umbrales establecidos por la autoridad y el programa local.",
+          "Respuesta: acciones coordinadas por funciones designadas; cada persona conoce su rol y evita interferir con autoridades o equipos especializados.",
+          "Reporte: comunicación oportuna, objetiva y protegida de hechos observables por el canal previsto.",
+          "Registro: conservar hora, fuente y acciones de manera íntegra, con acceso y retención conforme a política.",
+          "Aprendizaje: análisis posterior autorizado que identifica mejoras sin divulgar información sensible ni atribuir culpas de forma prematura."
+        ],
+        "examples": [
+          "Una persona observa una condición inusual y la comunica al responsable de turno con ubicación general, hora aproximada y hechos observables, evitando conclusiones especulativas.",
+          "Tras un evento, el personal conserva notas y registros según instrucciones del responsable, sin publicarlos ni alterarlos."
+        ],
+        "case": {
+          "title": "Comunicación de una condición preocupante",
+          "description": "Se recibe un aviso que podría requerir respuesta. El personal activa el canal y el plan asignados, prioriza la seguridad de las personas y comunica únicamente hechos confirmados. No investiga por cuenta propia ni difunde el aviso."
+        },
+        "common_errors": [
+          "Retrasar una comunicación por intentar confirmar personalmente todos los detalles.",
+          "Difundir rumores, imágenes o identidades por redes o canales no autorizados.",
+          "Alterar notas originales o presentar una conclusión como hecho observado."
+        ],
+        "human_factors": [
+          "Estrés agudo puede dificultar recordar detalles; los formatos y canales aprobados ayudan a comunicar información esencial con claridad.",
+          "El temor a equivocarse puede retrasar un reporte de buena fe; seguir el umbral y la ruta de comunicación establecidos.",
+          "La coordinación y el relevo estructurado reducen órdenes contradictorias y duplicación de esfuerzos."
+        ],
+        "summary": "Ante un incidente, seguir el plan vigente, proteger a las personas, comunicar hechos por canales autorizados y preservar registros. Las acciones especializadas corresponden a los responsables y autoridades designados.",
+        "content_blocks": [
+          {"type": "text", "text": "La preparación para incidentes se establece mediante planes coordinados y funciones conocidas. Cada persona debe reconocer su canal de comunicación y actuar dentro de su función, evitando especular o divulgar detalles."},
+          {"type": "accordion", "title": "Reporte factual", "blocks": [
+            {"type": "text", "text": "Distingue lo que observaste de lo que otra persona reportó y de cualquier interpretación. Sigue el formato vigente, registra los datos solicitados y protege la información durante el seguimiento."}
+          ]},
+          {"type": "diagram", "title": "Ciclo general de gestión", "alt": "Reconocer, comunicar, responder según plan, registrar y aprender", "text": "Reconocer una condición\n        ↓\nComunicar por el canal aprobado\n        ↓\nResponder según plan y función asignada\n        ↓\nPreservar registros y dar seguimiento\n        ↓\nRevisión y mejora autorizadas"},
+          {"type": "case", "title": "Comunicación de una condición preocupante", "description": "Se comunica el hecho por el canal asignado y se sigue el plan vigente. El personal evita investigar por cuenta propia o difundir el aviso."}
+        ]
+      },
+      "activity": {
+        "activity_id": "ACT-AVSEC-005",
+        "type": "scenario",
+        "title": "Reporte oportuno y factual",
+        "instructions": "Recibes un aviso sobre una condición potencialmente relevante, sin confirmación completa. Elige una respuesta segura y trazable.",
+        "options": [
+          {"id": "A", "text": "Publicar el aviso para que más personas ayuden a verificarlo."},
+          {"id": "B", "text": "Comunicar los hechos disponibles por el canal aprobado y seguir el plan asignado."},
+          {"id": "C", "text": "Investigar por cuenta propia antes de informar."},
+          {"id": "D", "text": "Eliminar el aviso para evitar una falsa alarma."}
+        ],
+        "correct_option_id": "B",
+        "feedback": "El canal aprobado permite que el responsable active la respuesta aplicable. Comunicar hechos disponibles evita demoras, rumores y acciones fuera de función.",
+        "completion_rule": "Seleccionar una alternativa y guardar la actividad."
+      }
+    }
+  ],
+  "completion_milestones_per_unit": ["lesson", "activity", "quiz"],
+  "references": [
+    {"reference_id": "REF-AVSEC-001", "title": "Global Aviation Security Plan (GASeP), Second Edition", "organization": "International Civil Aviation Organization", "year": 2024, "url": "https://www.icao.int/security/icao-global-aviation-security-plan-gasep", "verification_status": "VERIFIED_PUBLIC_PAGE"},
+    {"reference_id": "REF-AVSEC-002", "title": "Ley de Aviación Civil", "organization": "Cámara de Diputados del H. Congreso de la Unión", "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LAC.pdf", "verification_status": "OFFICIAL_DOCUMENT_LINK_VERIFIED_SCOPE_REVIEW_REQUIRED"},
+    {"reference_id": "REF-AVSEC-003", "title": "Portal institucional de la Agencia Federal de Aviación Civil", "organization": "Agencia Federal de Aviación Civil", "url": "https://www.gob.mx/afac", "verification_status": "OFFICIAL_PORTAL_VERIFIED_SPECIFIC_AVSEC_RULES_NOT_VERIFIED"},
+    {"reference_id": "REF-AVSEC-004", "title": "Title 49, Part 1542 — Airport Security", "organization": "Electronic Code of Federal Regulations", "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-XII/subchapter-C/part-1542", "verification_status": "METADATA_IDENTIFIED_CONTENT_NOT_VERIFIED"}
+  ],
+  "editorial_notice": "Contenido introductorio de demostración, versión 0.1.0 en revisión. No constituye certificación, instrucción operacional ni sustituto de normas, programas de seguridad, procedimientos controlados o capacitación autorizada."
+}

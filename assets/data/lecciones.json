@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "lecciones": [
+    {
+      "codigo": "LES-AVSEC-001",
+      "unidad_codigo": "UNT-AVSEC-001",
+      "titulo": "Propósito, responsabilidades y cultura AVSEC",
+      "orden": 1,
+      "duracion_minutos": 180,
+      "estado": "DRAFT_REVIEW"
+    },
+    {
+      "codigo": "LES-AVSEC-002",
+      "unidad_codigo": "UNT-AVSEC-002",
+      "titulo": "Autorización, identificación y supervisión de accesos",
+      "orden": 1,
+      "duracion_minutos": 180,
+      "estado": "DRAFT_REVIEW"
+    },
+    {
+      "codigo": "LES-AVSEC-003",
+      "unidad_codigo": "UNT-AVSEC-003",
+      "titulo": "Inspección profesional y trato al pasajero",
+      "orden": 1,
+      "duracion_minutos": 180,
+      "estado": "DRAFT_REVIEW"
+    },
+    {
+      "codigo": "LES-AVSEC-004",
+      "unidad_codigo": "UNT-AVSEC-004",
+      "titulo": "Trazabilidad y coordinación en la cadena de suministro",
+      "orden": 1,
+      "duracion_minutos": 180,
+      "estado": "DRAFT_REVIEW"
+    },
+    {
+      "codigo": "LES-AVSEC-005",
+      "unidad_codigo": "UNT-AVSEC-005",
+      "titulo": "Reporte, coordinación y aprendizaje de incidentes",
+      "orden": 1,
+      "duracion_minutos": 180,
+      "estado": "DRAFT_REVIEW"
+    }
+  ]
+}

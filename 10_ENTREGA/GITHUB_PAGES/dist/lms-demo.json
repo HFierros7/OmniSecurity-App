@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "status": "DEMO_NO_ACADEMICO",
+  "description": "Configuración técnica de reproductores. No contiene currículo aprobado, preguntas oficiales ni datos para certificación.",
+  "quiz_question_count": 5,
+  "exam_question_count": 35,
+  "demo_passing_score": 80,
+  "flashcards": [
+    {
+      "id": "DEMO-CARD-001",
+      "front": "Tarjeta de práctica demo 1",
+      "back": "Contenido académico pendiente de elaboración, revisión y aprobación."
+    },
+    {
+      "id": "DEMO-CARD-002",
+      "front": "Tarjeta de práctica demo 2",
+      "back": "Contenido académico pendiente de elaboración, revisión y aprobación."
+    },
+    {
+      "id": "DEMO-CARD-003",
+      "front": "Tarjeta de práctica demo 3",
+      "back": "Contenido académico pendiente de elaboración, revisión y aprobación."
+    },
+    {
+      "id": "DEMO-CARD-004",
+      "front": "Tarjeta de práctica demo 4",
+      "back": "Contenido académico pendiente de elaboración, revisión y aprobación."
+    },
+    {
+      "id": "DEMO-CARD-005",
+      "front": "Tarjeta de práctica demo 5",
+      "back": "Contenido académico pendiente de elaboración, revisión y aprobación."
+    }
+  ]
+}

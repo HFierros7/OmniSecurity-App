@@ -1,0 +1,30 @@
+export function createDemoState(data) {
+  return {
+    data,
+    demoEntered: false,
+    persistenceAvailable: false,
+    persistenceError: "",
+    checkedIn: false,
+    checkedOut: false,
+    eventFilter: "TODOS",
+    events: data.timeline.map((item) => ({ ...item })),
+    consignaIndex: 0,
+    incidents: [],
+    sosHistory: [],
+    progressByCourse: {},
+    evaluationsByCourse: {},
+    activitiesById: {},
+    flashcardsByCourse: {},
+    quizzesById: {},
+    examAttemptsByCourse: {},
+    examResultsById: {},
+    studySeconds: 0,
+    lastLearningActivity: null,
+    resumeCourseKey: "AVSEC",
+    currentCourse: null,
+    lastScreen: null,
+    lastSavedRoute: null,
+    calendarExpanded: false,
+    attachmentUrls: []
+  };
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": "1",
+  "progress_id": "<IDEMPOTENT_PROGRESS_ID>",
+  "learner_ref": "<PSEUDONYMOUS_LEARNER_REF>",
+  "course_id": "<COURSE_ID>",
+  "resource_type": "<LESSON_OR_ACTIVITY>",
+  "resource_ref": "<RESOURCE_ID>",
+  "state": "NOT_STARTED",
+  "percent_complete": 0,
+  "last_position": "",
+  "occurred_at": "<ISO-8601-DATETIME>",
+  "client_event_id": "<CLIENT_EVENT_ID>",
+  "sync_state": "PENDING"
+}

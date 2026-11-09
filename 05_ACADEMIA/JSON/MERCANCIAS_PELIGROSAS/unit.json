@@ -1,0 +1,11 @@
+{
+  "schema_version": "1",
+  "unit_id": "<UNIT_ID>",
+  "course_id": "<COURSE_ID>",
+  "content_version": "0.1.0-draft",
+  "sequence": 1,
+  "title": "",
+  "objectives": [],
+  "lesson_refs": [],
+  "status": "TEMPLATE"
+}

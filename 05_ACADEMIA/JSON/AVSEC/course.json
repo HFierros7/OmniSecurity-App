@@ -1,0 +1,12 @@
+{
+  "schema_version": "1",
+  "course_id": "CRS-AVSEC-001",
+  "content_version": "0.1.0-draft",
+  "title": "",
+  "summary": "",
+  "locale": "es-MX",
+  "status": "TEMPLATE",
+  "unit_refs": [
+    "UNT-AVSEC-001"
+  ]
+}

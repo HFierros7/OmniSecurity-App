@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "consignas": [
+    {
+      "titulo": "Consigna de demostración 1",
+      "descripcion": "Contenido de muestra para comprobar el carrusel. No es una instrucción operativa."
+    },
+    {
+      "titulo": "Consigna de demostración 2",
+      "descripcion": "Consultar las consignas oficiales en el sistema autorizado antes de actuar."
+    }
+  ]
+}

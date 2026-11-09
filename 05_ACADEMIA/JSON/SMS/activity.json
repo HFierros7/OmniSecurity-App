@@ -1,0 +1,16 @@
+{
+  "schema_version": "1",
+  "activity_id": "<ACTIVITY_ID>",
+  "lesson_id": "<LESSON_ID>",
+  "sequence": 1,
+  "activity_type": "<ACTIVITY_TYPE>",
+  "title": "",
+  "instructions": "",
+  "required": false,
+  "completion_rule": {
+    "type": "<COMPLETION_RULE_TYPE>",
+    "criteria": []
+  },
+  "resource_refs": [],
+  "status": "TEMPLATE"
+}

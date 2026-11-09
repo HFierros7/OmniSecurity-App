@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title">
+  <title id="title">Ilustración demo del curso AVSEC</title>
+  <rect width="640" height="360" rx="28" fill="#1B365D"/>
+  <circle cx="500" cy="74" r="120" fill="#005A9C" opacity=".8"/>
+  <path d="M320 66 450 112v91c0 78-54 125-130 160-76-35-130-82-130-160v-91z" fill="#60C1E5"/>
+  <path d="M320 102 414 135v68c0 54-35 90-94 120-59-30-94-66-94-120v-68z" fill="#F3F6FA"/>
+  <path d="m275 203 30 30 61-68" fill="none" stroke="#1B365D" stroke-linecap="round" stroke-linejoin="round" stroke-width="18"/>
+  <text x="42" y="322" fill="#fff" font-family="sans-serif" font-size="24" font-weight="700">AVSEC · DEMO VISUAL</text>
+</svg>

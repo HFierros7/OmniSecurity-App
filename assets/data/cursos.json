@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "cursos": [
+    {
+      "key": "AVSEC",
+      "codigo": "CRS-AVSEC-001",
+      "titulo": "CERTIFICACIÓN AVSEC — OFICIAL DE SEGURIDAD AEROPORTUARIA",
+      "etiqueta": "Seguridad de la aviación",
+      "descripcion": "Curso introductorio de cinco unidades y 20 horas estimadas. Contenido demo en revisión; no acredita ni certifica capacitación.",
+      "estado_demo": "Contenido demo · revisión requerida",
+      "porcentaje_inicial_demo": 0
+    },
+    {
+      "key": "MERCANCIAS_PELIGROSAS",
+      "codigo": null,
+      "titulo": "Mercancías Peligrosas",
+      "etiqueta": "Academia",
+      "descripcion": "El curso todavía no está disponible.",
+      "estado_demo": "Disponible próximamente",
+      "porcentaje_inicial_demo": 0
+    },
+    {
+      "key": "SMS",
+      "codigo": null,
+      "titulo": "SMS",
+      "etiqueta": "Sistema de Gestión de la Seguridad Operacional",
+      "descripcion": "El curso todavía no está disponible.",
+      "estado_demo": "Disponible próximamente",
+      "porcentaje_inicial_demo": 0
+    }
+  ]
+}

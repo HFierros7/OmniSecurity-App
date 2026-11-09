@@ -1,0 +1,91 @@
+{
+  "user": {
+    "name": "Usuario de demostración",
+    "employeeId": "DEMO-0001",
+    "group": "Grupo demo"
+  },
+  "client": {
+    "name": "Cliente de demostración",
+    "site": "Ubicación demo"
+  },
+  "shift": {
+    "label": "Turno 24x24",
+    "status": "Demostración"
+  },
+  "consignas": [
+    {
+      "title": "Consigna de demostración 1",
+      "description": "Contenido de muestra para comprobar el carrusel. No es una instrucción operativa."
+    },
+    {
+      "title": "Consigna de demostración 2",
+      "description": "Consultar las consignas oficiales en el sistema autorizado antes de actuar."
+    }
+  ],
+  "timeline": [
+    {
+      "category": "CONSIGNA",
+      "title": "Consigna de demostración",
+      "detail": "Contenido ilustrativo; no corresponde a una consigna vigente.",
+      "time": "08:00",
+      "status": "Demo"
+    },
+    {
+      "category": "INCIDENTE",
+      "title": "Registro de demostración",
+      "detail": "Evento ficticio para visualizar la bitácora.",
+      "time": "09:15",
+      "status": "Demo"
+    },
+    {
+      "category": "EQUIPO",
+      "title": "Inventario de demostración",
+      "detail": "Registro ficticio; no representa existencias reales.",
+      "time": "10:30",
+      "status": "Demo"
+    }
+  ],
+  "courses": [
+    {
+      "key": "AVSEC",
+      "code": "CRS-AVSEC-001",
+      "title": "AVSEC",
+      "tag": "Seguridad de la aviación",
+      "description": "Catálogo visual. El contenido curricular oficial está pendiente de aprobación.",
+      "status": "En curso · demo",
+      "progress": 60,
+      "unitCode": "UNT-AVSEC-001",
+      "unitTitle": "Unidad demostrativa",
+      "lessonCode": "LES-AVSEC-001"
+    },
+    {
+      "key": "MERCANCIAS_PELIGROSAS",
+      "title": "Mercancías Peligrosas",
+      "tag": "Academia",
+      "description": "Tarjeta de catálogo demo; unidades y lecciones pendientes.",
+      "status": "Disponible · demo",
+      "progress": 0
+    },
+    {
+      "key": "SMS",
+      "title": "SMS",
+      "tag": "Sistema de Gestión de la Seguridad Operacional",
+      "description": "Tarjeta de catálogo demo; unidades y lecciones pendientes.",
+      "status": "Disponible · demo",
+      "progress": 0
+    }
+  ],
+  "equipment": {
+    "label": "Equipo asignado de demostración; asignación real no verificada.",
+    "status": "Dato ficticio"
+  },
+  "calendarPattern": [
+    "Turno 24 h",
+    "Descanso 24 h",
+    "Turno 24 h",
+    "Descanso 24 h",
+    "Turno 24 h",
+    "Descanso 24 h",
+    "Turno 24 h"
+  ]
+}

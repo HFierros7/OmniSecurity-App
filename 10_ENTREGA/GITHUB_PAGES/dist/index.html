@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#1B365D">
+  <meta name="description" content="OmniGuard App — prototipo navegable de seguridad operativa y academia.">
+  <title>OmniGuard App · Demo</title>
+  <link rel="manifest" href="./manifest.json">
+  <link rel="icon" href="./favicon.ico">
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+  <link rel="stylesheet" href="./tokens.css">
+  <link rel="stylesheet" href="./app.css">
+</head>
+<body
+  data-data-root="./"
+  data-logo-light="./logo-light.jpg"
+  data-logo-dark="./logo-dark.png">
+  <a class="skip-link" href="#main-content">Saltar al contenido</a>
+
+  <section id="splash" class="splash" aria-label="Presentación de OmniGuard" aria-live="polite">
+    <div class="splash__content">
+      <div class="splash__logo-frame">
+        <img id="splash-logo" data-brand-logo src="./logo-light.jpg" alt="OmniGuard">
+        <span class="splash__shimmer" aria-hidden="true"></span>
+      </div>
+      <p>Seguridad operativa</p>
+      <span class="demo-badge">Prototipo demo</span>
+      <button class="splash__skip" type="button" data-action="skip-splash">Saltar presentación</button>
+    </div>
+  </section>
+
+  <div id="app" class="app-root"></div>
+  <div id="toast-region" class="toast-region" aria-live="polite" aria-atomic="true"></div>
+
+  <dialog id="bottom-sheet" class="bottom-sheet" aria-labelledby="sheet-title">
+    <div id="sheet-content"></div>
+  </dialog>
+
+  <noscript>OmniGuard Demo requiere JavaScript habilitado para mostrar el prototipo.</noscript>
+  <script type="module" src="./og-main.js"></script>
+</body>
+</html>

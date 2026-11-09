@@ -1,0 +1,9 @@
+{
+  "schema_version": "1",
+  "question_bank_id": "<QUESTION_BANK_ID>",
+  "course_id": "<COURSE_ID>",
+  "bank_version": "0.1.0-draft",
+  "locale": "es-MX",
+  "question_refs": [],
+  "status": "TEMPLATE"
+}

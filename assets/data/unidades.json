@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "unidades": [
+    {
+      "codigo": "UNT-AVSEC-001",
+      "curso_codigo": "CRS-AVSEC-001",
+      "titulo": "Fundamentos de la Seguridad de la Aviación Civil",
+      "orden": 1,
+      "duracion_minutos": 240,
+      "estado": "DRAFT_REVIEW"
+    },
+    {
+      "codigo": "UNT-AVSEC-002",
+      "curso_codigo": "CRS-AVSEC-001",
+      "titulo": "Control de Accesos y Zonas de Seguridad Restringidas",
+      "orden": 2,
+      "duracion_minutos": 240,
+      "estado": "DRAFT_REVIEW"
+    },
+    {
+      "codigo": "UNT-AVSEC-003",
+      "curso_codigo": "CRS-AVSEC-001",
+      "titulo": "Inspección de Pasajeros y Equipaje",
+      "orden": 3,
+      "duracion_minutos": 240,
+      "estado": "DRAFT_REVIEW"
+    },
+    {
+      "codigo": "UNT-AVSEC-004",
+      "curso_codigo": "CRS-AVSEC-001",
+      "titulo": "Inspección de Carga, Correo y Suministros",
+      "orden": 4,
+      "duracion_minutos": 240,
+      "estado": "DRAFT_REVIEW"
+    },
+    {
+      "codigo": "UNT-AVSEC-005",
+      "curso_codigo": "CRS-AVSEC-001",
+      "titulo": "Gestión de Incidentes y Actos de Interferencia Ilícita",
+      "orden": 5,
+      "duracion_minutos": 240,
+      "estado": "DRAFT_REVIEW"
+    }
+  ]
+}

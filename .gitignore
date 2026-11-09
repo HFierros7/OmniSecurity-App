@@ -1,0 +1,21 @@
+# Entornos y dependencias locales
+.venv/
+venv/
+node_modules/
+
+# Configuración local y secretos
+.env
+.env.*
+!.env.example
+
+# Resultados temporales de desarrollo y pruebas
+*.log
+*.tmp
+coverage/
+playwright-report/
+test-results/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+Desktop.ini

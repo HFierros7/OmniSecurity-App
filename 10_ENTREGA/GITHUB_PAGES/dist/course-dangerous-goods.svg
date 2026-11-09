@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title">
+  <title id="title">Ilustración demo de Mercancías Peligrosas</title>
+  <rect width="640" height="360" rx="28" fill="#13243A"/>
+  <circle cx="510" cy="80" r="120" fill="#005A9C" opacity=".72"/>
+  <path d="M320 48 466 180 320 312 174 180z" fill="#60C1E5"/>
+  <path d="M320 80 430 180 320 280 210 180z" fill="#F3F6FA"/>
+  <path d="M320 126v78m0 34v2" stroke="#1B365D" stroke-linecap="round" stroke-width="18"/>
+  <text x="42" y="322" fill="#fff" font-family="sans-serif" font-size="24" font-weight="700">MERCANCÍAS · DEMO VISUAL</text>
+</svg>

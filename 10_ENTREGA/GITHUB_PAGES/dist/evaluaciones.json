@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "evaluaciones": [
+    {
+      "codigo": "EXM-AVSEC-001",
+      "curso_codigo": "CRS-AVSEC-001",
+      "banco_codigo": "BNK-AVSEC-001",
+      "version": "0.1.0",
+      "titulo": "Evaluación final AVSEC · demo",
+      "preguntas": 35,
+      "porcentaje_aprobacion": 80,
+      "preguntas_seleccionadas": [
+        "QST-AVSEC-0001", "QST-AVSEC-0002", "QST-AVSEC-0003", "QST-AVSEC-0004", "QST-AVSEC-0005", "QST-AVSEC-0006", "QST-AVSEC-0007",
+        "QST-AVSEC-0011", "QST-AVSEC-0012", "QST-AVSEC-0013", "QST-AVSEC-0014", "QST-AVSEC-0015", "QST-AVSEC-0016", "QST-AVSEC-0017",
+        "QST-AVSEC-0021", "QST-AVSEC-0022", "QST-AVSEC-0023", "QST-AVSEC-0024", "QST-AVSEC-0025", "QST-AVSEC-0026", "QST-AVSEC-0027",
+        "QST-AVSEC-0031", "QST-AVSEC-0032", "QST-AVSEC-0033", "QST-AVSEC-0034", "QST-AVSEC-0035", "QST-AVSEC-0036", "QST-AVSEC-0037",
+        "QST-AVSEC-0041", "QST-AVSEC-0042", "QST-AVSEC-0043", "QST-AVSEC-0044", "QST-AVSEC-0045", "QST-AVSEC-0046", "QST-AVSEC-0047"
+      ],
+      "estado": "DRAFT_REVIEW",
+      "nota": "Umbral de demo solicitado para validación del reproductor; no es una evaluación oficial ni certificable."
+    }
+  ]
+}

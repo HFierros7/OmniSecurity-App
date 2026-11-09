@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title">
+  <title id="title">Ilustración demo del curso SMS</title>
+  <rect width="640" height="360" rx="28" fill="#1B365D"/>
+  <circle cx="505" cy="75" r="120" fill="#60C1E5" opacity=".55"/>
+  <circle cx="320" cy="180" r="112" fill="#A0E0EF"/>
+  <circle cx="320" cy="180" r="77" fill="#F3F6FA"/>
+  <circle cx="320" cy="180" r="40" fill="#005A9C"/>
+  <path d="M320 128v54l40 23" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="13"/>
+  <text x="42" y="322" fill="#fff" font-family="sans-serif" font-size="24" font-weight="700">SMS · DEMO VISUAL</text>
+</svg>

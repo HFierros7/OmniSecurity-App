@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "usuario": {
+    "codigo": null,
+    "nombres": "Usuario de demostración",
+    "apellidos": "Rojas",
+    "correo": null,
+    "telefono": null,
+    "identidad_externa": null,
+    "estado": "ACTIVO"
+  },
+  "contexto_demo": {
+    "employee_id": "DEMO-0001",
+    "grupo": "Grupo demo"
+  }
+}
